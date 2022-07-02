@@ -1,22 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto CSS Grid</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
     <main>
-        <section class="hero">
-            <div class="info">
-                <h1>Check the</br>best food</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aliquam porro nobis tempore. Laborum repudiandae assumenda dolorem debitis! Dolore a possimus dolorum consequuntur placeat atque impedit reiciendis tempore praesentium dolor?</p>
-                <button>Book Table</button>
-            </div>
-            <img src="images/hero.png" alt="Plato de Pasta con salsa y vegetales" class="hero-image">
-        </section>
+      <section class="hero">
+        <div class="info">
+          <h1 class="info-title">Check the<br />best food</h1>
+          <p class="info-subtitle">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+            aliquam porro nobis tempore. Laborum repudiandae assumenda dolorem
+            debitis! Dolore a possimus dolorum consequuntur placeat atque
+            impedit reiciendis tempore praesentium dolor?
+          </p>
+          <button class="info-button">Book Table</button>
+        </div>
+        <img
+          src="images/hero.png"
+          alt="Plato de Pasta con salsa y vegetales"
+          class="hero-image"
+        />
+      </section>
+      <section class="dishes">
+        <h2 class="dishes-title">Our Services</h2>
+        <div class="dishes-grid">
+          <img
+            class="dishes-item dishes-item__big"
+            src="images/video.png"
+            alt="Mesa con platos de pasta"
+          />
+          <img
+            class="dishes-item"
+            src="images/dish1.png"
+            alt="bowl de vegetales"
+          />
+          <img
+            class="dishes-item"
+            src="images/dish2.png"
+            alt="bowl de vegetales"
+          />
+          <img
+            class="dishes-item"
+            src="images/dish3.png"
+            alt="bowl de vegetales"
+          />
+          <img
+            class="dishes-item"
+            src="images/dish4.png"
+            alt="bowl de vegetales"
+          />
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
